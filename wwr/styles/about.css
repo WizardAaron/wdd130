@@ -1,0 +1,25 @@
+:root{
+    --border: 1px solid black;
+    --max-width: 850px;
+    --primary-color: #0C17B8;
+    --primary2-color: #3083dc;
+    --accent-color: #2ebfa5;
+    --accent2-color: #85ffc7;
+}
+
+nav{
+    background-color: var(--primary-color);
+    padding: 10px
+}
+
+p {
+    max-width: var(--max-width);
+    padding: 0px;
+}
+
+footer {
+    max-width: var(--max-width);
+    margin-top: 20px;
+    border-top: 2px solid black;
+    text-align: center;
+}
