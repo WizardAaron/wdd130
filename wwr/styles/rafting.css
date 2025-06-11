@@ -360,3 +360,22 @@ button:hover {
   height: 100%;
   border-radius: 1rem;
 }
+
+footer .contactfooter {
+  position: relative;
+}
+
+.wireframe {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin: 1.5rem;
+  justify-self: start;
+  z-index: 10;
+}
+
+footer .wireframe img {
+  width: 100px;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
